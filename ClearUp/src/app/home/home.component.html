@@ -1,0 +1,86 @@
+<!--<mat-toolbar class="app-toolbar mat-toolbar mat-primary" color="primary" role="toolbar">
+  <ul role="navigation">
+    <li><p class="title" title="EBPP">Bill Details Clear Up</p></li>
+  </ul>
+</mat-toolbar>
+<mat-toolbar class="app-toolbar mat-toolbar mat-primary" color="primary" role="toolbar">
+  <ul role="navigation" style="padding-top: 20px">
+    <li><a routerLink="/home" routerLinkActive="active" title="Features">Home</a></li>
+    <li><a routerLink="/login" routerLinkActive="active" title="Features">About</a></li>
+    <li style="padding-left: 80px"><a  title="username">UserName</a></li>
+    <li><a  routerLink="/login" routerLinkActive="active" title="Logout">Logout</a></li>
+  </ul>
+</mat-toolbar>-->
+
+
+<div id="header">
+  <div id="image-logo">
+    <img src="./assets/clearup.jpg" alt="logo" width="200px" height="124px"/>
+  </div>
+  <div id="title">
+    <mat-toolbar class="app-toolbar mat-toolbar mat-primary" color="primary" role="toolbar">
+      <ul role="navigation">
+        <li><p class="title" title="EBPP">Bill Details Clear Up</p></li>
+      </ul>
+    </mat-toolbar>
+    <mat-toolbar class="app-toolbar mat-toolbar mat-primary" color="primary" role="toolbar">
+      <ul role="navigation" style="padding-top: 20px">
+        <li><a routerLink="/home" routerLinkActive="active" title="Features">Home</a></li>
+        <li><a routerLink="/login" routerLinkActive="active" title="Features">About</a></li>
+        <li style="padding-left: 80px"><a  title="username">UserName</a></li>
+        <li><a  routerLink="/login" routerLinkActive="active" title="Logout">Logout</a></li>
+      </ul>
+    </mat-toolbar>
+  </div>
+</div>
+<div id="wrapper">
+  <div id="first">
+    <mat-list>
+      <mat-list-item>Item 1</mat-list-item>
+      <mat-list-item>Item 2</mat-list-item>
+    </mat-list>
+  </div>
+  <div id="second">
+    <mat-tab-group class="icon-arrange">
+      <mat-tab label="Tab 1">
+       <p>Our Content</p>
+        <button mat-mini-fab class="example-fab">
+          <mat-icon>add</mat-icon>
+        </button>
+        <p>
+          Lorem ipsum dolor sit amet, pede a libero aenean phasellus, lectus metus sint ut risus,
+          fusce vel in pellentesque. Nisl rutrum etiam morbi consectetuer tempor magna, aenean nullam
+          nunc id, neque vivamus interdum sociis nulla scelerisque sem, dolor id wisi turpis magna
+          aliquam magna. Risus accumsan hac eget etiam donec sed, senectus erat mattis quam, tempor
+          vel urna occaecat cras, metus urna augue nec at. Et morbi amet dui praesent, nec eu at,
+          ligula ipsum dui sollicitudin, quis nisl massa viverra ligula, mauris fermentum orci arcu
+          enim fringilla. Arcu erat nulla in aenean lacinia ullamcorper, urna ante nam et sagittis,
+          tristique vehicula nibh ipsum vivamus, proin proin. Porta commodo nibh quis libero amet.
+          Taciti dui, sapien consectetuer.
+        </p>
+        <mat-paginator [length]="100"
+                       [pageSize]="10"
+                       [pageSizeOptions]="[10]">
+        </mat-paginator>
+
+      </mat-tab>
+      <mat-tab label="Tab 2">
+        <p>Hello</p>
+        <button mat-mini-fab class="example-fab">
+          <mat-icon>add</mat-icon>
+        </button>
+        Lorem ipsum dolor sit amet, pede a libero aenean phasellus, lectus metus sint ut risus,
+        fusce vel in pellentesque. Nisl rutrum etiam morbi consectetuer tempor magna, aenean nullam
+        nunc id, neque vivamus interdum sociis nulla scelerisque sem, dolor id wisi turpis magna
+        aliquam magna. Risus accumsan hac eget etiam donec sed, senectus erat mattis quam, tempor
+        vel urna occaecat cras, metus urna augue nec at. Et morbi amet dui praesent, nec eu at,
+        ligula ipsum dui sollicitudin, quis nisl massa viverra ligula, mauris fermentum orci arcu
+        enim fringilla. Arcu erat nulla in aenean lacinia ullamcorper, urna ante nam et sagittis,
+        tristique vehicula nibh ipsum vivamus, proin proin. Porta commodo nibh quis libero amet.
+        Taciti dui, sapien consectetuer.
+      </mat-tab>
+      <mat-tab label="Tab 3">Content 3</mat-tab>
+    </mat-tab-group>
+  </div>
+</div>
+
